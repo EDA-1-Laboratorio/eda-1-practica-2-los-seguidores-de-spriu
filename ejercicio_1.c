@@ -27,9 +27,6 @@ void invertirCadena(char *inicio) {
 int main() {
     char palabra[] = "APUNTADORES";
     printf("Original: %s\n", palabra);
-    /*printf("%p\n\n", &palabra[0]);
-    printf("%p\n\n", &palabra[1]);
-    printf("%p\n\n", &palabra[2]);*/
     invertirCadena(palabra);
     printf("Invertida: %s\n", palabra);
     return 0;
