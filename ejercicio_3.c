@@ -36,4 +36,4 @@ int main() {
 // PREGUNTA: En la función enteroABinario, estamos pasando un int (4 bytes) y un apuntador char *. 
 // Si un int ya vive en la memoria como una secuencia de bits, 
 // ¿por qué es necesario 'convertirlo' a una cadena de caracteres para contarlos con el apuntador?
-//RESPUESTA: Porque los apuntadores no ven bits y solo se puede enfocar en un byte (un grupo de 8 bits) y no puede apuntar a un bit individual. Cuando se transforma en cadena lo que se hace es tomar un bit del número y se pone dentro de su propio espacio (byte). Así, p ya puede ir avanzando para ver qué hay en cada esapcio.
+//RESPUESTA: Porque los apuntadores no ven bits y solo se puede enfocar en un byte (un grupo de 8 bits) y no puede apuntar a un bit individual. Cuando se transforma en cadena lo que se hace es tomar un bit del número y se pone dentro de su propio espacio (byte). Así, p ya puede ir avanzando para ver qué hay en cada espacio.
